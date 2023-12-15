@@ -1,0 +1,127 @@
+body{
+    background-color: whitesmoke;
+}
+.logo{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.topnav{
+  background-color:rgb(240, 242, 243);
+  margin-top: 30px;
+  width: 30%;
+  border-radius: 3em;
+ margin-left: 500px;
+ padding: 10px 0px 10px 0px;
+ }
+
+.topnav a{
+    color: black;
+    font-weight: 400px;
+    font-size: 0.9em;
+    
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.section_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item_1{
+    color: #191515;
+    font-size: 50px;
+    font-family: PP Editorial New;
+    font-weight: 400;
+    line-height: 50px;
+    word-wrap: break-word;
+    margin-left: 400px;
+    margin-right: 200px;
+    
+   
+    
+    
+}
+
+.item_2{
+    margin-left:0;
+    margin-bottom: 20px;
+    padding-bottom:5px;
+
+}
+
+
+.item_3{
+    margin:0 50px 50px 750px;
+  
+    
+}
+
+.item_3 button{
+    border-radius: 3rem;
+    font-size:0.7em;
+   
+}
+
+.item_4{
+    margin:0px 20px 10px 1200px;
+}
+
+  
+  
+
+
+
+
+
+
+.row{
+    /* display: flex;
+    flex: 1 1 auto auto;
+    position: relative;
+    justify-content: center; 
+    margin-top: 50px;
+    width:300px;
+    height:20.04px;
+    margin-left: 40%;
+    gap:100px; */
+    width:100vw;
+    
+    }
+
+
+.col{
+    background-color: black;
+    color: white;
+    margin-left:5px;
+    border-radius:5%;
+    text-align: center;
+     object-fit: cover; 
+    
+    
+}
+
+.col:hover{
+    opacity:0.3;
+    
+}
+
+
+
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    font-size:0.7em;
+}
+
